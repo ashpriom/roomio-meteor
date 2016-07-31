@@ -1,6 +1,6 @@
 {
   "name": "Rocket.Chat",
-  "description": "Have your own open-source Slack-like online chat platform.",
+  "description": "Your World",
   "repository": "https://github.com/RocketChat/Rocket.Chat",
   "logo": "https://raw.githubusercontent.com/RocketChat/Rocket.Chat/master/public/images/logo/512x512.png?v=3",
   "keywords": ["meteor", "social", "community", "chat"],
@@ -8,7 +8,7 @@
   "env": {
     "BUILDPACK_URL": "https://github.com/RocketChat/heroku-buildpack-meteor.git",
     "HEROKU_APP_NAME": {
-      "description": "Please re-enter your App Name from the top.",
+      "description": "roomio",
       "required": true
     }
   },
