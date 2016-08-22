@@ -1,12 +1,12 @@
 {
   "name": "Roomio",
   "description": "When one door closes another opens.",
-  "repository": "https://github.com/RocketChat/Rocket.Chat",
-  "logo": "https://raw.githubusercontent.com/RocketChat/Rocket.Chat/master/public/images/logo/512x512.png?v=3",
+  "repository": "https://github.com/ashpriom/roomio.git",
+  "logo": "https://drive.google.com/file/d/0B8fUqEYj2h7vQ0pFNDkyZGpwbWs/view?usp=sharing",
   "keywords": ["meteor", "social", "community", "chat"],
   "website": "https://roomio.me",
   "env": {
-    "BUILDPACK_URL": "https://github.com/RocketChat/heroku-buildpack-meteor.git",
+    "BUILDPACK_URL": "https://github.com/Monolith-Technology/meteor-buildpack-horse",
     "HEROKU_APP_NAME": {
       "description": "roomio",
       "required": true

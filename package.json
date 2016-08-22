@@ -1,5 +1,5 @@
 {
-  "name": "Rocket.Chat",
+  "name": "Roomio",
   "scripts": {
     "start": "meteor run",
     "lint": "eslint .",
