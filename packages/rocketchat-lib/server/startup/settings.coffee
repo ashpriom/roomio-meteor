@@ -109,7 +109,6 @@ RocketChat.settings.addGroup 'General', ->
 	@section 'REST API', ->
 		@add 'API_User_Limit', 500, { type: 'int', public: true, i18nDescription: 'API_User_Limit' }
 
-
 RocketChat.settings.addGroup 'Email', ->
 	@section 'Header and Footer', ->
 		@add 'Email_Header', '<table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#f3f3f3" style="color:#4a4a4a;font-family: Helvetica,Arial,sans-serif;font-size:14px;line-height:20px;border-collapse:callapse;border-spacing:0;margin:0 auto"><tr><td style="padding:1em"><table border="0" cellspacing="0" cellpadding="0" align="center" width="100%" style="width:100%;margin:0 auto;max-width:800px"><tr><td bgcolor="#ffffff" style="background-color:#ffffff; border: 1px solid #DDD; font-size: 10pt; font-family: Helvetica,Arial,sans-serif;"><table width="100%" border="0" cellspacing="0" cellpadding="0"><tr><td style="background-color: #04436a;"><h1 style="font-family: Helvetica,Arial,sans-serif; padding: 0 1em; margin: 0; line-height: 70px; color: #FFF;">[Site_Name]</h1></td></tr><tr><td style="padding: 1em; font-size: 10pt; font-family: Helvetica,Arial,sans-serif;">', {
@@ -187,7 +186,7 @@ RocketChat.settings.addGroup 'Push', ->
 	@add 'Push_debug', false, { type: 'boolean', public: true }
 	@add 'Push_enable', true, { type: 'boolean', public: true }
 	@add 'Push_enable_gateway', true, { type: 'boolean' }
-	@add 'Push_gateway', 'https://rocket.chat', { type: 'string' }
+	@add 'Push_gateway', 'https://roomio.me', { type: 'string' }
 	@add 'Push_production', true, { type: 'boolean', public: true }
 	@add 'Push_test_push', 'push_test', { type: 'action', actionText: 'Send_a_test_push_to_my_user' }
 
@@ -210,7 +209,7 @@ RocketChat.settings.addGroup 'Layout', ->
 
 	@section 'Content', ->
 		@add 'Layout_Home_Title', 'Home', { type: 'string', public: true }
-		@add 'Layout_Home_Body', 'Welcome to Rocket.Chat <br> Go to APP SETTINGS -> Layout to customize this intro.', { type: 'code', code: 'text/html', multiline: true, public: true }
+		@add 'Layout_Home_Body', 'Welcome to Roomio. <br> ', { type: 'code', code: 'text/html', multiline: true, public: true }
 		@add 'Layout_Terms_of_Service', 'Terms of Service <br> Go to APP SETTINGS -> Layout to customize this page.', { type: 'code', code: 'text/html', multiline: true, public: true }
 		@add 'Layout_Login_Terms', ' ', { type: 'string', multiline: true, public: true }
 		@add 'Layout_Privacy_Policy', 'Privacy Policy <br> Go to APP SETTINGS -> Layout to customize this page.', { type: 'code', code: 'text/html', multiline: true, public: true }
