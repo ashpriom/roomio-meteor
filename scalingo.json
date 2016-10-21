@@ -1,8 +1,0 @@
-{
-  "name": "Roomio",
-  "repository": "https://github.com/RocketChat/Rocket.Chat",
-  "description": "Have your own open-source Slack-like online chat, built with Meteor.",
-  "logo": "https://drive.google.com/file/d/0B8fUqEYj2h7vQ0pFNDkyZGpwbWs/view?usp=sharing",
-  "website": "https://rocket.chat",
-  "addons": ["scalingo-mongodb"]
-}
